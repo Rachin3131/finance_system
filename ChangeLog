@@ -1,0 +1,130 @@
+budgetwarrior 1.1.0 - in development
+
+ * New fature: Income/Earnings over time
+ * New fature: Savings rate over time
+ * Improvement: Option to disable fortune module
+   * Use disable_fortune=true to disable it
+   * Will remove menu from web interface
+   * Will use net worth cash over fortune for wishes
+ * Improvement: Add monthly expenses to retirement status
+ * Improvement: Add savings rate to index
+ * Bug Fix: Creating an objective from web interface was not using the correct date
+ * Bug Fix: Fix the FI ratio over time web graph
+
+budgetwarrior 1.0.1 - 03.04.2018
+
+ * New feature: Basic retirement calculator
+ * New feature: Add graph of expenses over time
+ * New feature: Aggregate overview of all time
+ * New feature: Search for expenses
+ * New feature: Net Worth (and portfolio) allocation
+ * Improvement: Support for default account
+ * Improvement: Year overview display better savings rate
+ * Improvement: Rebalance is more clear
+ * Improvement: Batch update can only show the current asset values
+ * Bug fix: Editing old expense could mess the account
+ * Bug fix: currency exchange in the net worth was not correct
+ * Bug fix: average expense in the monthly overview was not correct
+
+budgetwarrior 1.0 - 29.01.2018
+
+ * Add web interface!
+ * Add server mode for synchronization!
+ * Compute the savings rate
+ * Add support for savings rate objectives
+ * Add support for tracking asset values
+ * Add support for portfolio rebalancing
+ * Auto-completion when possible with UP and DOWN
+ * Auto-completion when possible with <TAB>
+ * Add command budget account archive year to archive from beginning of year
+
+budgetwarrior 0.4.2 - 14.09.2017
+
+ * New command: summary for a global view
+ * Improved fortune reports
+ * Disable balance over years (can be changed with option)
+ * Display more information in overview month
+ * No more need for month start in config
+ * Graph report by account
+ * Bug Fix: report was not displaying the first month
+ * Add transfer command in module account
+ * Fix accuracies
+ * Review of the recurrings (less merge conflicts)
+ * Refactorings
+ * Reviewed the build system
+ * Improved Windows support
+
+budgetwarrior 0.4.1.2 - 24.09.2014
+
+ * Fix important bug with overview
+
+budgetwarrior 0.4.1.1 - 22.09.2014
+
+ * Fix makefile
+
+budgetwarrior 0.4.1 - 21.09.2014
+
+ * Support for expense template to create common expenses faster
+ * Support for merging accounts together
+ * Simple prediction command
+ * No more Boost dependency
+ * Display mean accuracy in budget wish list
+ * Command gc make all IDs contiguous
+ * Bugfix: The scale of the budget report was not displayed correctly
+
+budgetwarrior 0.4.0 - 04.07.2014
+
+ * New version command to display the current version of the tool
+ * New overview aggregate month command to display aggregate expenses of a month
+ * Add importance and urgency fields to wish
+ * Compute estimation accuracy in wish list
+ * Support for aliases: budget sync -> budget versioning sync and budget aggregate -> budget overview aggregate
+ * Support for option --full in overview aggregate to aggregate accounts too
+ * Support for option --no-group in overview aggregate to disable grouping
+ * Support for option --separator in overview aggregate to change the grouping char
+ * All overview aggregate options can also be set in the configuration file
+ * More information are displayed on objective status
+ * New versioning commands: status, push, pull
+ * versioning sync now also perform save
+
+budgetwarrior 0.3.1 - 10.05.2014
+
+ * Compute totals in wish list
+ * Add feature to mark wishes as paid
+ * Date durations can be used to compute a date from the date of the day
+ * Display warnings if early in the month for objectives and wishes
+ * New wish estimate command to estimate a good time to buy something
+ * New versioning module to commit and sync the budget repository with git
+
+budgetwarrior 0.3 - 03.02.2014
+
+ * Change license to MIT
+ * Remove support for old command types
+ * Add objectives module to fix yearly/monthly objectives on balances,
+   earnings and expenses
+ * Add wish list and estimation of when it is a good time to buy something
+
+budgetwarrior 0.2.1 - 15.01.2014
+
+ * Fix recurrings system
+ * Fix archived accounts
+ * The first month of the year now takes the last month of the previous year
+   to compute its balance
+
+budgetwarrior 0.2 - 25.10.2013
+
+ * Add more convenient system to create expenses, earnings, accounts, recurring,
+   expenses and debts
+ * Sort expenses and earnings by their data, not their creation date
+ * Only write data files if they changed
+ * Only write configuration files if they changed
+ * In year overview, compute the mean up to the current month
+ * Add monthly report in the form of a bar plot
+ * Add possibility to check the status of the total fortune
+ * Add feature to aggregate all the expenses with the same for a year
+
+budgetwarrior 0.1 - 26.08.2013
+
+ * First version of the tool
+ * Manage expenses, earnings, accounts and debts
+ * Creation of recurring monthly expenses

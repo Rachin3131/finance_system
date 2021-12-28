@@ -1,0 +1,20 @@
+[submodule "include/cpp_utils"]
+	path = include/cpp_utils
+	url = https://github.com/wichtounet/cpp_utils.git
+	branch = master
+[submodule "make-utils"]
+	path = make-utils
+	url = https://github.com/wichtounet/make-utils.git
+	branch = master
+[submodule "cpp-httplib"]
+	path = cpp-httplib
+	url = https://github.com/yhirose/cpp-httplib.git
+[submodule "doctest"]
+	path = doctest
+	url = https://github.com/onqtam/doctest.git
+[submodule "loguru"]
+	path = loguru
+	url = https://github.com/emilk/loguru.git
+[submodule "fmt"]
+	path = fmt
+	url = https://github.com/fmtlib/fmt.git
